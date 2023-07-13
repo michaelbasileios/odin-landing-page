@@ -16,19 +16,21 @@ body {
     color: #f9faf8;
 }
 
-.herotext {
+/* Header Menu */
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    max-width: 1000px;
 }
 
-.herotext .logo {
+.header .logo {
+    font-size: 24px;
+    font-weight: 450;
     display: flex;
     align-items: center;
 }
 
-.herotext ul {
+.header ul {
     display: flex;
     list-style: none;
     margin: 16px;
@@ -38,19 +40,35 @@ body {
 .h-link a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #b6b6b6;
 }
 
-.descrip {
+/* Website Description */
+.herotext-container {
     display: flex;
+    width: 600px;
 }
 
-.descrip h1 {
+.herotext-container h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: bolder;
 }
 
-.descrip img {
-    width: 300px;
+.herotext-container p {
+    color: #b6b6b6;
 }
+
+.description button {
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+}
+
+.herotext-container img {
+    max-width: 300px;
+}
+
