@@ -9,13 +9,13 @@ body {
     padding: 0;
 }
 
-.container {
+.header-container {
     background: #1f2937;
     display: flex;
     justify-content: center;
     padding-bottom: 100px;
 }
-
+/* Header Top Line */
 .header {
     color: #f9faf8;
     display: flex;
@@ -85,3 +85,9 @@ body {
     width: 500px;
 }
 
+/* Information Section */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
