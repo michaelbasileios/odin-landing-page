@@ -157,7 +157,53 @@ body {
 
 .quotation .q-source {
     align-self: flex-end;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
     margin: 0;
+}
+
+/* SIGNUP SECTION */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    padding: 100px;
+}
+
+.signup-widget {
+    background: #3882f6;
+    max-width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.signup-widget .text {
+    margin: 50px 120px;
+}
+
+.signup-widget .text p {
+    margin: 0;
+}
+
+.signup-widget .text p:nth-child(1) {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.signup-widget .text p:nth-child(2) {
+    color: #e5e7eb;
+}
+
+.signup-widget button {
+    align-self: center;
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 6px 18px;
+    border: solid #f9faf8;
+    border-radius: 10px;
+    margin-right: 120px;
 }
