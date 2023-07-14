@@ -15,7 +15,7 @@ body {
     justify-content: center;
     padding-bottom: 100px;
 }
-/* Header Top Line */
+/* HEADER TOP */
 .header {
     color: #f9faf8;
     display: flex;
@@ -47,7 +47,7 @@ body {
     color: #e5e7eb;
 }
 
-/* Header Description Section */
+/* HEADER LOWER SECTION */
 .description-items {
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@ body {
     width: 500px;
 }
 
-/* Information Section */
+/* INFORMATION SECTION */
 .info-container {
     display: flex;
     justify-content: center;
@@ -130,3 +130,5 @@ body {
     height: 150px;
     width: 150px;
 }
+
+/* QUOTE SECTION */
