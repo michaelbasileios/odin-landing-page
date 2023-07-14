@@ -195,6 +195,7 @@ body {
 
 .signup-widget .text p:nth-child(2) {
     color: #e5e7eb;
+    font-size: 20px;
 }
 
 .signup-widget button {
@@ -206,4 +207,18 @@ body {
     border: solid #f9faf8;
     border-radius: 10px;
     margin-right: 120px;
+}
+
+/* FOOTER SECTION */
+.footer-container {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container footer {
+    color: #e5e7eb;
+    font-size: 20px;
+    margin: 50px;
 }
