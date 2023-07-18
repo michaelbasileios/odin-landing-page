@@ -52,18 +52,26 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 48px;
+    flex-wrap: wrap;
 }
 
 .description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 450px;
 }
 
 .description-items h1 {
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
+}
+
+.description-items img {
+    max-width: 950px;
+    height: 350px;
+    object-fit: cover;
 }
 
 .description p {
@@ -114,6 +122,8 @@ body {
     gap: 70px;
     margin: 0;
     padding: 0;
+    max-width: 1000px;
+    flex-wrap: wrap;
 }
 
 .items li {
@@ -129,6 +139,13 @@ body {
     border-radius: 10px;
     height: 150px;
     width: 150px;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 /* QUOTE SECTION */
@@ -222,3 +239,4 @@ body {
     font-size: 20px;
     margin: 50px;
 }
+
